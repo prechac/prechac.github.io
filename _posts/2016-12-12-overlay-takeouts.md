@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Overlay Takeouts"
+date:   2016-12-13 22:12:37 +0100
+---
+{:cimg: style="text-align: center;"}
 # Overlay Takeouts
 
 ## Abstract
@@ -32,16 +38,19 @@ In the next section we introduce such a new pattern as an example to give a quic
 One well established takeout pattern is the so called [roundabout](https://www.google.de/search?q=roundabout+juggling&tbm=vid): a 6 club 4-count with a middle-person substituting passes and selves, where the middle-person swaps roles with a passer who will then become the new middle-person and so on. Let's see how we can add Prechac siteswaps to roundabout like patterns by a short tutorial on a pattern that was accidentally named "delightful". We want to start out with a simplistic proof of concept, so we choose to have not too many clubs for the passers and only one extra club for the middle-person. Also the passing pattern should not be too demanding so let's go for a period 4 passing pattern: [5 clubs, period 4](http://prechacthis.org/index.php?persons=2&objects=5&lengths=4&max=3&passesmin=1&passesmax=4&jugglerdoes=&exclude=&clubdoes=&react=&results=). From the list that PrechacThis gives us, 
 [3p 3 1 3]("http://prechacthis.org/info.php?pattern=[p(3,1,5),p(3,0,3),p(1,0,1),p(3,0,3)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D5%26amp%3Blengths%3D4%26amp%3Bmax%3D3%26amp%3Bpassesmin%3D1") looks rather simple. Let's assume for simplicity's sake that the passers face each other and that the passes are straight, then the pattern would look like this between passers _A_ and _B_:
 
-![3p 3 1 3](3p313.png)
+![3p 3 1 3]({% include img param="3p313.png"%})
+{:cimg}
 
 To add a manipulation pattern, let's start with the basic two club solo shower: 3 1 3 1. Prechac's theory tells us that we can take a one self 3 from both the passing pattern and the solo pattern and transform it into a 1p. So from the manipulator's _M_ perspective, _M_ is just passing 
 [3 1 1p 1]("http://prechacthis.org/info.php?pattern=[p(3,0,3),p(1,0,1),p(1,1,3),p(1,0,1)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D3%26amp%3Blengths%3D4%26amp%3Bmax%3D3%26amp%3Bpassesmin%3D1%26amp%3Bpassesmax%3D1%26amp%3Bjugglerdoes%3D1p") with _A_. There are different ways to set this up, let's assume side by side with the 1p going inside to outside:
 
-![3 1 1p 1](311p1.png)
+![3 1 1p 1]({% include img param="311p1.png"%})
+{:cimg}
 
 When we overlay these two patterns, _B_ just hangs on to the passing pattern as above. But _A_ is doing _both at once_, i.e. 3p 3 3 1 1p:
 
-![3p 3 1 1p](3p311p.png)
+![3p 3 1 1p]({% include img param="3p311p.png"%})
+{:cimg}
 
 To summarize the jobs:
 
@@ -82,7 +91,8 @@ This is what [PrechacThis offers us](http://prechacthis.org/index.php?persons=2&
 
 Our first attempt is [4 2.5p 1 2 3]("http://prechacthis.org/info.php?pattern=[p(1,0,1),p(2,0,2),p(3,0,3),p(4,0,4),p(2.5,1,5)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D5%26amp%3Blengths%3D5%26amp%3Bmax%3D4%26amp%3Bpassesmin%3D1%26amp%3Bpassesmax%3D1%26amp%3Bjugglerdoes%3D%26amp%3Bexclude%3D%26amp%3Bclubdoes%3D1%2B4%2Bor%2B2%2B4"). As always in odd-period patterns, one passer goes straight and one goes cross on the 2.5p, which here is a floaty flat (aka "zap" or "joe pass").
 
-![4 2.5p 1 2 3](42.5p123.png)
+![4 2.5p 1 2 3]({% include img param="42.5p123.png"%})
+{:cimg}
 
 [//]: # (<video width="640" height="360" controls preload="metadata" poster="42.5p123.png">
   <source src="missionImpossible.mp4#t=40s" type="video/mp4" />
@@ -91,7 +101,8 @@ Our first attempt is [4 2.5p 1 2 3]("http://prechacthis.org/info.php?pattern=[p(
 
 The next step is to construct a manipulation pattern. [It must be period 5 and have a 1.5p in it](http://prechacthis.org/index.php?persons=2&objects=3&lengths=5&max=3&passesmin=1&passesmax=1&jugglerdoes=1.5p). In that list, there is [0 1 2 3 1.5p]("http://prechacthis.org/info.php?pattern=[p(0,0,0),p(1,0,1),p(2,0,2),p(3,0,3),p(1.5,1,4)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D3%26amp%3Blengths%3D5%26amp%3Bmax%3D3%26amp%3Bpassesmin%3D1%26amp%3Bpassesmax%3D1%26amp%3Bjugglerdoes%3D1.5p"). It looks like this, again, with one passer going straight, one cross:
 
-![0 1 2 3 1.5p](01231.5p.png)
+![0 1 2 3 1.5p]({% include img param="01231.5p.png"%})
+{:cimg}
 
 [//]: # (<video width="640" height="360" controls preload="metadata" poster="">
   <source src="missionImpossible.mp4#t=26s" type="video/mp4" />
@@ -105,7 +116,8 @@ When we overlay the two patterns, we end up with:
 
 The passers have to agree on who goes straight an who crosses the 2.5p. For the 1.5p, the manipulator can dodge the flat passes best if she smashes the 1.5p straight, while the passer doing the overlay smashes the 1.5p _cross_. Note that in contrast to conventional takeouts the passer, too, has a smash-in.
 
-![1 2 3 1.5p 2.5p](1231.5p2.5p.png)
+![1 2 3 1.5p 2.5p]({% include img param="1231.5p2.5p.png"%})
+{:cimg}
 
 We call this combination Mission Impossible, partly because it was surprisingly difficult to get your head around the overlay part (_A_), partly out of reverence for Lalo Shifrin's famous movie theme - one of the few widely known five fourth songs. Try chanting along the rhythm!
 
