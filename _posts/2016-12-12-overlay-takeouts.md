@@ -146,7 +146,7 @@ What we find most remarkable about this set of pattern is how hard it is to get 
 
 However, and this is true for many takeouts and (mini) Prechac patterns - once master the timing around the difficult throws like 4s __and__ you don't have to think actively, you can get the pattern solid relatively quickly. Then, you enter the "clock work" state of mind. This mode of juggling where every one is a cog, making the pattern tick, makes up a significant amount of the "buzz" takeouts.
 
-The second observation worth noting is that, the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be "transparent" to the passers.
+The second observation worth noting is that the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be "transparent" to the passers.
 
 ## Future Work
 - _Describe the run around part of Mission Impossible in more detail (transition, starts, permutations)_
