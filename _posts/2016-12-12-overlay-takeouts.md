@@ -74,6 +74,16 @@ TODO Videolink runaround delightful
 - _(4) add some walking sequence to it_
 - _take material from here:_ https://github.com/prechac/prechacthis/blob/a5bfcf09f936b70f18f1a9309e8a2ed3765d73da/2016-11-overlay-takeouts.md
 
+With this simple example in mind let's look at the general principle. We shall see that it always generates valid patterns, as long as the following set of properties are ensured.
+
+1. Start with a two juggler symmetric passing passing pattern with a length of _period_, that contains at least one _self_ where _self_ >= 1 + _period_/2.
+2. Take a solo pattern of length _period_ containing _self_. Transform that _self_ into the _manipulation\_pass_ = _self_ - _period_/2
+3. Let the manipulator _M_ do the pattern from step 2, exchanging the _manipulation\_pass_ with _A_; let passer _B_ juggle the pattern from step 1; and let passer _A_ do the pattern from step 1 with _B_ plus, instead of _self_, the _manipulation\_pass_ with _M_
+4. Optionally, walk around swapping roles, e.g.
+  - _M_ becomes a _B_ passer
+  - _A_ run to the other side and become a manipulator
+  - _B_ then start to _A_ job.  
+
 ## Fully fledged example Mission Impossible
 - _What where we aiming for?/Requirements:_ 
     - _not too demanding for participants (throws, catches, number of clubs, "familiar" elements)_
@@ -131,6 +141,12 @@ TODO elaborate: Once you have the pattern solid you can move on the Impossible R
 - Yes, the passer cannot ignore the manipulator, but that is true for most takeouts ("pelf")
 - _Once you by pass the your thinking machinery, its actually not that hard, you become part of a clock work, which is what the whole takeout business is about_
 - _Two step approach: (1) creating overlay prechacs, (2) dealing with runaround pecularities_
+
+What we find most remarkable about this set of pattern is how hard it is to get ones head around the overlay job (_A_). Even in both examples all the bilateral passing part are fairly easy, it takes quite some time manage both patterns at once. Naturally this applies especially to odd period patterns, where you have to memorize once for the first half and another time when you switch hands.
+
+However, and this is true for many takeouts and (mini) Prechac patterns - once master the timing around the difficult throws like 4s __and__ you don't have to think actively, you can get the pattern solid relatively quickly. Then, you enter the "clock work" state of mind. This mode of juggling where every one is a cog, making the pattern tick, makes up a significant amount of the "buzz" takeouts.
+
+The second observation worth noting is that, the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be "transparent" to the passers.
 
 ## Future Work
 - _Describe the run around part of Mission Impossible in more detail (transition, starts, permutations)_
