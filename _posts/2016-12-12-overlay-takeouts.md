@@ -4,11 +4,12 @@ title:  "Overlay Takeouts"
 date:   2016-12-13 22:12:37 +0100
 ---
 {:cimg: style="text-align: center;"}
-# Overlay Takeouts
 
 ## Abstract
 - most known takeouts base on a simple cascade with right handed single passes
 - we propose a way to base takeouts on a wide range of siteswaps
+
+Takeout or stealing patterns have been around for a long time already and are still very popular. On the other hand, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging prechac created patterns and make both passers and manipulators do passing actions, that give the combined positive experience from takeout- and prechac-patterns.
 
 ## Introduction
 - _prolonged version of abstract_
@@ -76,13 +77,19 @@ TODO Videolink runaround delightful
 
 With this simple example in mind let's look at the general principle. We shall see that it always generates valid patterns, as long as the following set of properties are ensured.
 
-1. Start with a two juggler symmetric passing passing pattern with a length of _period_, that contains at least one _self_ where _self_ >= 1 + _period_/2.
-2. Take a solo pattern of length _period_ containing _self_. Transform that _self_ into the _manipulation\_pass_ = _self_ - _period_/2
-3. Let the manipulator _M_ do the pattern from step 2, exchanging the _manipulation\_pass_ with _A_; let passer _B_ juggle the pattern from step 1; and let passer _A_ do the pattern from step 1 with _B_ plus, instead of _self_, the _manipulation\_pass_ with _M_
+1. Start with a two juggler symmetric passing pattern with a length of _period_, that contains at least one _self_ where _self_ >= 1 + _period_/2.
+2. Take a solo pattern of length _period_ containing _self_. Transform that _self_ into the _manipulation\_pass_ = _self_ - _period_/2.
+3. Let the manipulator _M_ do the pattern from step 2, exchanging the _manipulation\_pass_ with _A_; let passer _B_ juggle the pattern from step 1; and let passer _A_ do the pattern from step 1 with _B_ plus, instead of _self_, the _manipulation\_pass_ exchanged with _M_.
 4. Optionally, walk around swapping roles, e.g.
   - _M_ becomes a _B_ passer
-  - _A_ run to the other side and become a manipulator
-  - _B_ then start to _A_ job.  
+  - _A_ runs to the other side and becomes a manipulator
+  - _B_ then starts the _A_ job.
+
+The total amount of clubs _n<sub>total_ equals the amount of clubs of the passing part _n<sub>passing_ plus the clubs of the solo version of the manipulation pattern _n<sub>solo_ minus 1, since the manipulator adds a_n<sub>solo_ but shares one club with a passer:
+
+_n<sub>total_ = _n<sub>passing_ + _n<sub>solo_ - 1
+
+In theory, this always works. In practice, there are two things that you can bear in mind to avoid unnecessarily hard pattern: a) Don't catch passes under 4s as this will often lead to timing issues; b) if you have a 1p or 1.5p make sure can resolve the resulting wrong-end catch, by enforcing a 1 or 2 self on that 1.5p-club immediately before or after the 1.5p. You will find this tweak in the following example 
 
 ## Fully fledged example Mission Impossible
 - _What where we aiming for?/Requirements:_ 
@@ -133,7 +140,7 @@ We call this combination Mission Impossible, partly because it was surprisingly 
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/70927998&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-TODO elaborate: Once you have the pattern solid you can move on the Impossible Round about. Matter of a second article.
+Once you have the pattern solid you can move on the Impossible Round about. Matter of a second article. The most important and difficult aspect here is be clear about what's cross and what's straight. There are some intricacies about starting, permutations and a peculiar role swapping irregularity - but we hope to cover these in a follow up post.
 
 
 ## Observations, Discussion
@@ -142,14 +149,18 @@ TODO elaborate: Once you have the pattern solid you can move on the Impossible R
 - _Once you by pass the your thinking machinery, its actually not that hard, you become part of a clock work, which is what the whole takeout business is about_
 - _Two step approach: (1) creating overlay prechacs, (2) dealing with runaround pecularities_
 
-What we find most remarkable about this set of pattern is how hard it is to get ones head around the overlay job (_A_). Even in both examples all the bilateral passing part are fairly easy, it takes quite some time manage both patterns at once. Naturally this applies especially to odd period patterns, where you have to memorize once for the first half and another time when you switch hands.
+What we find most remarkable about this set of patterns is how hard it is to get ones head around the overlay job (passer _A_). Even though in both examples all the bilateral passing part are fairly easy, it takes quite some time manage both patterns at once. Naturally, this applies especially to odd period patterns, where you have to memorize once for the first half and another time when you switch hands.
 
-However, and this is true for many takeouts and (mini) Prechac patterns - once master the timing around the difficult throws like 4s __and__ you don't have to think actively, you can get the pattern solid relatively quickly. Then, you enter the "clock work" state of mind. This mode of juggling where every one is a cog, making the pattern tick, makes up a significant amount of the "buzz" takeouts.
+However, and this is true for many takeouts and (mini) Prechac patterns - once you master the timing around the difficult throws like 4s __and__ you don't have to think actively any more, you can get the pattern solid relatively quickly. Then, you enter the "clock work" state of mind. This mode of juggling where every one is a cog, making the pattern tick, accounts for a significant amount of the attraction of takeouts.
 
-The second observation worth noting is that the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be "transparent" to the passers.
+The second observation worth noting is that the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be transparent to the passers. In our view this is not problematic, since in reality the passers are always aware of the manipulation - an intercepted self has even be called "pelf" to indicate that it feels actually like a **p**ass. In contrast, our approach explicitly spells out the interaction between manipulator and passer, rather than assuming that is transparent to latter.
 
 ## Future Work
 - _Describe the run around part of Mission Impossible in more detail (transition, starts, permutations)_
 - _let's see how many interesting patterns can be generated that way_
 - _mamupulate why not, not why etc.
 - _See how Aidan's and Ed's notation can help to find a theory for the runaround part_
+
+There are various intended activities to cover more of this patter set. First of all we need a more solid description of the run around version of Mission Impossible. To do that, a closer comparison of these patterns with Aidan's and Ed's framework should help, as it might be possible to describe the run around aspect elegantly with that notation. Taking that idea further it would be nice to have a general theory to turn our set of patterns into run arounds, which could possibly be as easy as confirming that Ed's notation can be applied in general.
+
+The more practical way ahead is obviously to generate more interesting patterns, especially with slightly more clubs. Examples of that could be a manipulated "Why Not"/"Not Why"/"Why the hack" etc.
