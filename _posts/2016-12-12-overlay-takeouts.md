@@ -6,9 +6,11 @@ date:   2016-12-13 22:12:37 +0100
 {:cimg: style="text-align: center;"}
 
 ## Abstract
+
 Takeout or stealing patterns have been around for a long time already and are still very popular. On the other hand, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging prechac created patterns and make both passers and manipulators do passing actions, that give the combined positive experience from takeout- and prechac-patterns.
 
 ## Introduction
+
 In juggling the term "takeouts" typically refers to one or more jugglers doing a pattern while an extra juggler (manipulator or middle-person) interferes with that pattern, introducing an extra object. This style has been known at least as far back as 1995 (see [Charlie Dancey's Compendium of Club Juggling](https://www.amazon.com/Charlie-Danceys-Compendium-Club-Juggling/dp/1898591148)). These patterns were increasingly popular and were soon also performed on stage ([Take That Out performance starting in 2000](https://vimeo.com/161766794) and its sequel [Get The Shoe starting in 2002](https://www.youtube.com/watch?v=Yemkg_z7MAE)). Takeout enthusiasts have generated an enormous variety of complicated and beautiful patterns, many of them collected in [Aidan Burns' famous 'How to steal from your friends'](http://www.geocities.ws/aidanjburns/passing.html). 
 
 [//]: # (One of our favorites of this style is [Bruno's Ace](https://www.youtube.com/watch?v=49Z7-wo_XtI) - Brunos' Nightmare with two rotating manipulators.)
@@ -61,6 +63,7 @@ TODO Videolink runaround delightful
 
 
 ## The General Principle
+
 With this simple example in mind we will have a look at a set of more generic activities (algorithm), that will always generate valid patterns:
 
 1. Start with a two juggler symmetric passing pattern with a length of _period_, that contains at least one _self_ where _self_ >= 1 + _period_/2.
@@ -78,6 +81,7 @@ _n<sub>total_ = _n<sub>passing_ + _n<sub>solo_ - 1
 In theory, this always works. In practice, there are two things that one should bear in mind to avoid an unnecessarily hard pattern: a) Don't catch passes under 4s as this will often lead to timing issues; b) if you have a 1p or 1.5p make sure you can resolve the resulting wrong-end catch, by enforcing a 1 or 2 self on that 1.5p-club immediately before or after the 1.5p. You will find this tweak in the following example 
 
 ## Fully Fledged Example: Mission Impossible
+
 Now that we have established the general approach, consider a pattern that incorporates more of the elements that we aimed for in the first place:
 
 * It should be left-right-handed, hence period 5.
@@ -121,13 +125,17 @@ We call this combination Mission Impossible, partly because it was surprisingly 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/70927998&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
 Once you have the pattern solid you can move on to the Impossible Roundabout, matter of a second article. As an outlook we can already outline the most important and difficult aspect, which is to be clear about what is cross and what is straight. There are some intricacies about starting, permutations and a peculiar role swapping irregularity - but we will cover these in a follow up post.
+
 ## Observations, Discussion
+
 What we find most remarkable about this set of patterns is how hard it is to get ones head around the overlay role (passer _A_). Even though in both examples all the bilateral passing parts are fairly easy, it takes quite some time to manage both patterns at once. Naturally, this applies especially to odd period patterns, where you have to memorize once for the first half and another time when you switch hands.
 
 However, and this is true for many takeouts and (mini) Prechac patterns - once you master the timing around the difficult throws like the 4s __and__ you don't have to think actively any more, you can get the pattern solid relatively quickly. And doing the pattern solidly then suddenly feels like being part of a clock work on the one hand and watching it in admiration at the same time on the other which is probably what accounts for a significant amount of the attraction of takeout patterns.
 
 The second observation worth noting is that the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be transparent to the passers. In our view this is not problematic, since in reality the passers are always aware of the manipulation - an intercepted self has even be called "pelf" to indicate that it feels actually like a **p**ass. In contrast, our approach explicitly spells out the interaction between manipulator and passer, rather than assuming that it is transparent to the latter.
+
 ## Future Work
+
 There are various intended activities, in order to cover more of this set of patterns. First of all we need a more solid description of the run around version of Mission Impossible. To do that, a closer comparison of these patterns with Aidan's and Ed's framework should help. We might be able to describe the run around aspect elegantly with that notation. Taking that idea further, it would be nice to have a general theory to turn our set of patterns into runarounds, which could possibly be as easy as confirming that Ed's notation can be applied in general.
 
 The more practical way ahead is obviously to generate more interesting patterns, especially with slightly more clubs to eliminate situations where we could actually stop the pattern with two clubs for each person. Examples of that could be a manipulated "Why Not"/"Not Why"/"Why the hack" etc.
