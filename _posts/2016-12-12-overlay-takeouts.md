@@ -5,6 +5,10 @@ date:   2016-12-13 22:12:37 +0100
 ---
 {:cimg: style="text-align: center;"}
 
+<script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+            
 ## Abstract
 
 Takeout or stealing patterns have been around for a long time already and are still very popular. On the other hand, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging prechac created patterns and make both passers and manipulators do passing actions, that give the combined positive experience from takeout- and prechac-patterns.
@@ -21,7 +25,7 @@ Yet, that branch is focused on symmetrical patterns, i.e. every juggler is doing
 
 Our idea was to join these two lines of development: the running manipulators and unrestricted patterns. More specifically, instead of limiting the interactions to only three different ones between middle-person and passers and mostly four-count based passing, we looked at various periods for a pattern (3, 4, 5, 6) with no limitation on the number of passes and no limitations on selfs and passes (0, 1, 2, 3, 4 as selfs and 1p, 1.5p, 2p, 2.5p, 3p, 3.5p, 4p, 4.5p as passes).
 
-The basic idea we explored is: Choose a Prechac passing pattern and _overlay_ it with a custom made manipulation siteswap (another prechac pattern).
+The basic idea we explored is: Choose a Prechac passing pattern and _overlay_ it with a custom made manipulation siteswap (another Prechac pattern).
 
 In the next section we introduce such a new pattern as an example to give a quick start to the broad idea. The section is followed by a deeper and more general explanation of the approach. By exploring a further example, with more of the intended features, we try to bring across the advantages that we found in this new technique.
 
@@ -64,17 +68,17 @@ TODO Videolink runaround delightful
 
 With this simple example in mind we will have a look at a set of more generic activities (algorithm), that will always generate valid patterns:
 
-1. Start with a two juggler symmetric passing pattern with a length of _period_, that contains at least one _self_ where _self_ >= 1 + _period_/2.
-2. Take a solo pattern of length _period_ containing _self_. Transform that _self_ into the _manipulation\_pass_ = _self_ - _period_/2.
-3. Let the manipulator _M_ do the pattern from step 2, exchanging the _manipulation\_pass_ with _A_; let passer _B_ juggle the pattern from step 1; and let passer _A_ do the pattern from step 1 with _B_ plus, instead of _self_, the _manipulation\_pass_ exchanged with _M_.
+1. Start with a two juggler symmetric passing pattern with a length of _period_, that contains at least one _self_ where \\(self >= 1 + \frac{period}{2} \\).
+2. Take a solo pattern of length _period_ containing _self_. Transform that _self_ into the \\(manipulation\\_pass = self - \frac{period}{2} \\).
+3. Let the manipulator _M_ do the pattern from step 2, exchanging the _manipulation\_pass_ with _A_; let passer _B_ juggle the pattern from step 1; and let passer _A_ do the pattern from step 1 with _B_ plus, instead of _self_, the _manipulation\_pass_ exchanged with _M.
 4. Optionally, walk around, swapping roles, e.g.
   - _M_ becomes a _B_ passer
   - _A_ runs to the other side and becomes a manipulator
   - _B_ then starts in role _A_.
 
-The total amount of clubs _n<sub>total_ equals the amount of clubs of the passing part _n<sub>passing_ plus the clubs of the solo version of the manipulation pattern _n<sub>solo_ minus 1, since the manipulator adds a_n<sub>solo_ but shares one club with a passer:
+The total amount of clubs \\(n_{total}\\) equals the amount of clubs of the passing part \\(n_{passing}\\) plus the clubs of the solo version of the manipulation pattern \\(n_{solo}\\) minus 1, since the manipulator adds \\(n_{solo}\\) clubs but shares one club with a passer:
 
-_n<sub>total_ = _n<sub>passing_ + _n<sub>solo_ - 1
+\\( n_{total} = n_{passing} + n_{solo} - 1  \\)
 
 In theory, this always works. In practice, there are two things that one should bear in mind to avoid an unnecessarily hard pattern: a) Don't catch passes under 4s as this will often lead to timing issues; b) if you have a 1p or 1.5p make sure you can resolve the resulting wrong-end catch, by enforcing a 1 or 2 self on that 1.5p-club immediately before or after the 1.5p. You will find this tweak in the following example 
 
@@ -128,7 +132,7 @@ Once you have the pattern solid you can move on to the Impossible Roundabout, ma
 
 What we find most remarkable about this set of patterns is how hard it is to get ones head around the overlay role (passer _A_). Even though in both examples all the bilateral passing parts are fairly easy, it takes quite some time to manage both patterns at once. Naturally, this applies especially to odd period patterns, where you have to memorize once for the first half and another time when you switch hands.
 
-However, and this is true for many takeouts and (mini) Prechac patterns - once you master the timing around the difficult throws like the 4s __and__ you don't have to think actively any more, you can get the pattern solid relatively quickly. And doing the pattern solidly then suddenly feels like being part of a clock work on the one hand and watching it in admiration at the same time on the other which is probably what accounts for a significant amount of the attraction of takeout patterns.
+However, and this is true for many takeouts and (mini) Prechac patterns - once you master the timing around the difficult throws like the 4s __and__ you don't have to think actively any more, you can get the pattern solid relatively quickly. And doing the pattern solidly then suddenly feels like being part of a clock work on the one hand and watching it with a detached kind of admiration at the same time on the other hand. This mix probably accounts for a significant amount of the attraction of juggling takeout patterns.
 
 The second observation worth noting is that the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be transparent to the passers. In our view this is not problematic, since in reality the passers are always aware of the manipulation - an intercepted self has even be called "pelf" to indicate that it feels actually like a **p**ass. In contrast, our approach explicitly spells out the interaction between manipulator and passer, rather than assuming that it is transparent to the latter.
 
