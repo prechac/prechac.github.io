@@ -6,92 +6,78 @@ date:   2016-12-13 22:12:37 +0100
 {:cimg: style="text-align: center;"}
 
 ## Abstract
-- most known takeouts base on a simple cascade with right handed single passes
-- we propose a way to base takeouts on a wide range of siteswaps
-
 Takeout or stealing patterns have been around for a long time already and are still very popular. On the other hand, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging prechac created patterns and make both passers and manipulators do passing actions, that give the combined positive experience from takeout- and prechac-patterns.
 
 ## Introduction
-- _prolonged version of abstract_
-- _give references to explain the historic background_
-- _tell how we differ from and continue that history_
-- _one sentence solution introduction_
+In juggling the term "takeouts" typically refers to one or more jugglers doing a pattern while an extra juggler (manipulator or middle-person) interferes with that pattern, introducing an extra object. This style has been known at least as far back as 1995 (see [Charlie Dancey's Compendium of Club Juggling](https://www.amazon.com/Charlie-Danceys-Compendium-Club-Juggling/dp/1898591148)). These patterns were increasingly popular and were soon also performed on stage ([Take That Out performance starting in 2000](https://vimeo.com/161766794) and its sequel [Get The Shoe starting in 2002](https://www.youtube.com/watch?v=Yemkg_z7MAE)). Takeout enthusiasts have generated an enormous variety of complicated and beautiful patterns, many of them collected in [Aidan Burns' famous 'How to steal from your friends'](http://www.geocities.ws/aidanjburns/passing.html). 
 
-In juggling the term "takeouts" typically refers to one or more jugglers doing a pattern while an extra juggler (manipulator or middle-person) interferes with that pattern, introducing an extra objects. This style has been known at least as far back as [Charlie Dancey's Compendium of Club Juggling](https://www.amazon.com/Charlie-Danceys-Compendium-Club-Juggling/dp/1898591148). An important impulse leading to contemporary takeouts were probably the [Take That Out performance](https://vimeo.com/28502455) and its sequel [Get The Shoe](https://www.youtube.com/watch?v=Yemkg_z7MAE). Takeout enthusiasts have generated an enormous variety of complicated and beautiful patterns, many of them collected in [Aidan Burns' famous 'How to steal from your friends'](http://www.geocities.ws/aidanjburns/passing.html). One of our favorites of this style is [Bruno's Ace](https://www.youtube.com/watch?v=49Z7-wo_XtI) - Brunos' Nightmare with two rotating manipulators.
+[//]: # (One of our favorites of this style is [Bruno's Ace](https://www.youtube.com/watch?v=49Z7-wo_XtI) - Brunos' Nightmare with two rotating manipulators.)
 
-However all these variations boil down to three club cascades with sync 4-count passes manipulated with substitutions, intercepts and carries, as [Warrens article on Scrambled Passing Patterns](http://ezine.juggle.org/2014/05/26/scrambled-passing-patterns-and-takeout-notations-part-1/) explains, some 2-, 3- and 5-counts being the exception.
+However all these variations boil down to three club cascades with synchronous 4-count passes manipulated with substitutions, intercepts and carries, as [Warrens article on Scrambled Passing Patterns](http://ezine.juggle.org/2014/05/26/scrambled-passing-patterns-and-takeout-notations-part-1/) explains, some 2-, 3- and 5-counts being the exception.
 
-Another line of developing new interactions between jugglers is based on [Christophe Prechac's article on Symmetric Passing Patterns](https://www.passingdb.com/articles.php?id=13). He essentially extended the generative power of [siteswaps](https://en.wikipedia.org/wiki/Siteswap) to the passing world. This technique has been extensively investigated and evangelized by the [Gandinis](http://www.gandinijuggling.com), leading to Sean's well known [Prechac explanation and lists](http://www.owenreynolds.net/notation/Symmetric_patterns_C.pdf) and ultimately to the epic [Social Siteswaps DVD](https://www.youtube.com/watch?v=W_G74eLnK1U). A practical tool to generate these patterns is [PrechacThis](http://prechacthis.org). A denser compilation of takeouts inspired Prechac Siteswap patterns is the [Under Prechac routine](http://underprechac.de).
+Another line of developing new interactions between jugglers is based on [Christophe Prechac's article on Symmetric Passing Patterns](https://www.passingdb.com/articles.php?id=13). He essentially extended the generative power of [siteswaps](https://en.wikipedia.org/wiki/Siteswap) to the passing world. This technique has been extensively investigated by the [Gandinis](http://www.gandinijuggling.com), leading to Sean's well known [Prechac explanation](http://www.owenreynolds.net/notation/Symmetric_patterns_C.pdf) and ultimately to the well known [Social Siteswaps DVD](https://www.youtube.com/watch?v=W_G74eLnK1U). A practical tool to generate these patterns is [PrechacThis](http://prechacthis.org). A denser compilation of takeout-inspired Prechac Siteswap patterns is the [Under Prechac routine](http://underprechac.de).
 
-Yet, that branch is focused on symmetrical patterns, i.e. every juggler is doing the same job, whereas one very intriguing aspect of takeouts is the _manipulation_, i.e. someone is doing _something to_ the pattern.
+Yet, that branch is focused on symmetrical patterns, i.e. every juggler is doing the same pattern. In takeouts on the other hand, a base pattern is manipulated by someone how does something to the pattern. 
 
-Our current idea was to rejoin these two lines of development i.e. running manipulators, but without restrictions on the patterns. More specifically, instead of only three different interactions between middle-person and passers and mostly four-count based passing, we look at period 3, 4, 5, 6 also with multiple passes, and allow "any" self (0, 1, 2, 3, 4) and pass (1p, 1.5p, 2p, 2.5p, 3p, 3.5p, 4p, 4.5p).
+Our idea was to join these two lines of development: the running manipulators and unrestricted patterns. More specifically, instead of limiting the interactions to only three different ones between middle-person and passers and mostly four-count based passing, we looked at various periods for a pattern (3, 4, 5, 6) with no limitation on the number of passes and no limitations on selfs and passes (0, 1, 2, 3, 4 as selfs and 1p, 1.5p, 2p, 2.5p, 3p, 3.5p, 4p, 4.5p as passes).
 
-The technique we explored to bring these two lines together is: Take a Prechac passing pattern and _overlay_ it with a custom made manipulation siteswap.
+The basic idea we explored is: Choose a Prechac passing pattern and _overlay_ it with a custom made manipulation siteswap (another prechac pattern).
 
 In the next section we introduce such a new pattern as an example to give a quick start to the broad idea. The section is followed by a deeper and more general explanation of the approach. By exploring a further example, with more of the intended features, we try to bring across the advantages that we found in this new technique.
 
-## Motivating Example
-- _start with a boring standard take out pattern (round-about) pointing out the missing ways to get to something more interesting_
-- _motivating example: delightfull_
-- _explain trick, show what's opening up here_
+## Motivating Example: Delightfull
+One well established takeout pattern is the so called [roundabout](https://www.google.de/search?q=roundabout+juggling&tbm=vid): a 6 club 4-count with a middle-person substituting passes and selves, where the middle-person swaps roles with a passer who will then become the new middle-person and so on. 
 
-One well established takeout pattern is the so called [roundabout](https://www.google.de/search?q=roundabout+juggling&tbm=vid): a 6 club 4-count with a middle-person substituting passes and selves, where the middle-person swaps roles with a passer who will then become the new middle-person and so on. Let's see how we can add Prechac siteswaps to roundabout like patterns by a short tutorial on a pattern that was accidentally named "delightful". We want to start out with a simplistic proof of concept, so we choose to have not too many clubs for the passers and only one extra club for the middle-person. Also the passing pattern should not be too demanding so let's go for a period 4 passing pattern: [5 clubs, period 4](http://prechacthis.org/index.php?persons=2&objects=5&lengths=4&max=3&passesmin=1&passesmax=4&jugglerdoes=&exclude=&clubdoes=&react=&results=). From the list that PrechacThis gives us, 
-[3p 3 1 3]("http://prechacthis.org/info.php?pattern=[p(3,1,5),p(3,0,3),p(1,0,1),p(3,0,3)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D5%26amp%3Blengths%3D4%26amp%3Bmax%3D3%26amp%3Bpassesmin%3D1") looks rather simple. Let's assume for simplicity's sake that the passers face each other and that the passes are straight, then the pattern would look like this between passers _A_ and _B_:
+Based on this pattern we want to introduce our idea with a simple proof of concept. We chose to start out with a low amount of clubs (5 for the passers, 1 for the manipulator) and a not so demanding pattern [5 clubs, period 4](http://prechacthis.org/index.php?persons=2&objects=5&lengths=4&max=3&passesmin=1&passesmax=4&jugglerdoes=&exclude=&clubdoes=&react=&results=). We decided for [3p 3 1 3]("http://prechacthis.org/info.php?pattern=[p(3,1,5),p(3,0,3),p(1,0,1),p(3,0,3)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D5%26amp%3Blengths%3D4%26amp%3Bmax%3D3%26amp%3Bpassesmin%3D1"). 
+
+The passers face each other and all passes are straight, so for passers _A_ and _B_ the pattern looks like this:
 
 ![3p 3 1 3]({% include img param="3p313.png"%})
 {:cimg}
 
-To add a manipulation pattern, let's start with the basic two club solo shower: 3 1 3 1. Prechac's theory tells us that we can take a one self 3 from both the passing pattern and the solo pattern and transform it into a 1p. So from the manipulator's _M_ perspective, _M_ is just passing 
-[3 1 1p 1]("http://prechacthis.org/info.php?pattern=[p(3,0,3),p(1,0,1),p(1,1,3),p(1,0,1)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D3%26amp%3Blengths%3D4%26amp%3Bmax%3D3%26amp%3Bpassesmin%3D1%26amp%3Bpassesmax%3D1%26amp%3Bjugglerdoes%3D1p") with _A_. There are different ways to set this up, let's assume side by side with the 1p going inside to outside:
+We now add a manipulation pattern by first coming up with a solo siteswap (3 1 3 1) and then overlaying it to one of the passers by using Prechac's theory. This will allow the passer and the manipulator to share the 3 and transform it into a 1p, resulting in [3 1 1p 1]("http://prechacthis.org/info.php?pattern=[p(3,0,3),p(1,0,1),p(1,1,3),p(1,0,1)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D3%26amp%3Blengths%3D4%26amp%3Bmax%3D3%26amp%3Bpassesmin%3D1%26amp%3Bpassesmax%3D1%26amp%3Bjugglerdoes%3D1p") between passer _A_ and manipulator _M_. _A_ and _M_ stand side by side and the 1p is going inside to outside:
 
 ![3 1 1p 1]({% include img param="311p1.png"%})
 {:cimg}
 
-When we overlay these two patterns, _B_ just hangs on to the passing pattern as above. But _A_ is doing _both at once_, i.e. 3p 3 3 1 1p:
+If we include passer _B_ into the picture again, we see that _B_ continues with the passing pattern and _A_ does both, the passing pattern and the manipulation pattern at the same time:
 
 ![3p 3 1 1p]({% include img param="3p311p.png"%})
 {:cimg}
 
-To summarize the jobs:
+Finally we have three different roles:
 
 * _A_: 3p 3 1 1p
 * _B_: 3p 3 1 3
 * _M_: 3 1 1p 1
 
-A good way to get the pattern started is to let _A_ have two clubs in the right start with the right in 3p 3 1 1p, zipping the 1 into a wrong end catch. _B_ and _M_ can react intuitively.
+A good way to get the pattern started is to let _A_ have two clubs in the right hand and start with the right hand into 3p 3 1 1p, zipping the 1 into a wrong end catch. _B_ and _M_ can react intuitively.
 
 TODO Videolink static delightful
 
-A runaround can be achived as easily as in the classic roundabout by letting swapping roles and walking to the other side of the pattern:
+The runaround part (swapping roles) is almost as easily achieved as in the classic roundabout. Passer _A_ gives her last club to manipulator _M_ and walks over with one club to the other passer _B_, leaving _M_ as the new passer and becoming the new manipulator. Passer _B_ has to do a short pattern change, i.e. 3p 3 1 3 _3p_ 3 _3p_ 3, where the two-count style clubs are thrown to first the former passing partner _A_ and then to the new passing partner _M_.
 
 TODO Videolink runaround delightful
 
-## The General Principle
-- _summarize the idea based on the example_
-- _(1) take/create a prechac pattern, that has one self > 1+period/2_
-- _(2) create solo siteswap of the same period containing that self -> but transform the self into a pass_
-- _(3) juggle both at once_
-- _(4) add some walking sequence to it_
-- _take material from here:_ https://github.com/prechac/prechacthis/blob/a5bfcf09f936b70f18f1a9309e8a2ed3765d73da/2016-11-overlay-takeouts.md
 
-With this simple example in mind let's look at the general principle. We shall see that it always generates valid patterns, as long as the following set of properties are ensured.
+## The General Principle
+With this simple example in mind we will have a look at a set of more generic activities (algorithm), that will always generate valid patterns:
 
 1. Start with a two juggler symmetric passing pattern with a length of _period_, that contains at least one _self_ where _self_ >= 1 + _period_/2.
 2. Take a solo pattern of length _period_ containing _self_. Transform that _self_ into the _manipulation\_pass_ = _self_ - _period_/2.
 3. Let the manipulator _M_ do the pattern from step 2, exchanging the _manipulation\_pass_ with _A_; let passer _B_ juggle the pattern from step 1; and let passer _A_ do the pattern from step 1 with _B_ plus, instead of _self_, the _manipulation\_pass_ exchanged with _M_.
-4. Optionally, walk around swapping roles, e.g.
+4. Optionally, walk around, swapping roles, e.g.
   - _M_ becomes a _B_ passer
   - _A_ runs to the other side and becomes a manipulator
-  - _B_ then starts the _A_ job.
+  - _B_ then starts in role _A_.
 
 The total amount of clubs _n<sub>total_ equals the amount of clubs of the passing part _n<sub>passing_ plus the clubs of the solo version of the manipulation pattern _n<sub>solo_ minus 1, since the manipulator adds a_n<sub>solo_ but shares one club with a passer:
 
 _n<sub>total_ = _n<sub>passing_ + _n<sub>solo_ - 1
 
-In theory, this always works. In practice, there are two things that you can bear in mind to avoid unnecessarily hard pattern: a) Don't catch passes under 4s as this will often lead to timing issues; b) if you have a 1p or 1.5p make sure can resolve the resulting wrong-end catch, by enforcing a 1 or 2 self on that 1.5p-club immediately before or after the 1.5p. You will find this tweak in the following example 
+In theory, this always works. In practice, there are two things that one should bear in mind to avoid an unnecessarily hard pattern: a) Don't catch passes under 4s as this will often lead to timing issues; b) if you have a 1p or 1.5p make sure you can resolve the resulting wrong-end catch, by enforcing a 1 or 2 self on that 1.5p-club immediately before or after the 1.5p. You will find this tweak in the following example 
 
-## Fully fledged example Mission Impossible
+## Fully Fledged Example: Mission Impossible
 - _What where we aiming for?/Requirements:_ 
     - _not too demanding for participants (throws, catches, number of clubs, "familiar" elements)_
     - _left right handed, i.e. odd period_
