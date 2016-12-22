@@ -11,11 +11,9 @@ Takeout or stealing patterns have been around for a long time already and are st
 
 ## Introduction
 
-In juggling the term "takeouts" typically refers to one or more jugglers doing a pattern while an extra juggler (manipulator or middle-person) interferes with that pattern, introducing an extra object. This style has been known at least as far back as 1995 (see [Charlie Dancey's Compendium of Club Juggling](https://www.amazon.com/Charlie-Danceys-Compendium-Club-Juggling/dp/1898591148)). These patterns were increasingly popular and were soon also performed on stage ([Take That Out performance starting in 2000](https://vimeo.com/161766794) and its sequel [Get The Shoe starting in 2002](https://www.youtube.com/watch?v=Yemkg_z7MAE)). Takeout enthusiasts have generated an enormous variety of complicated and beautiful patterns, many of them collected in [Aidan Burns' famous 'How to steal from your friends'](http://www.geocities.ws/aidanjburns/passing.html). 
+In juggling the term "takeouts" typically refers to one or more jugglers doing a pattern while an extra juggler (manipulator or middle-person) interferes with that pattern, introducing an extra object. This style has been known at least as far back as 1995 (see [Charlie Dancey's Compendium of Club Juggling](https://www.amazon.com/Charlie-Danceys-Compendium-Club-Juggling/dp/1898591148)). These patterns were increasingly popular and were soon also performed on stage ([Take That Out performance starting in 2000](https://vimeo.com/161766794) and its sequel [Get The Shoe starting in 2002](https://www.youtube.com/watch?v=Yemkg_z7MAE)). Takeout enthusiasts have generated an enormous variety of complicated and beautiful patterns, many of them collected in [Aidan Burns' famous 'How to steal from your friends'](http://www.geocities.ws/aidanjburns/passing.html). An very systematic example of this style is [Bruno's Ace](https://www.youtube.com/watch?v=49Z7-wo_XtI&t=60s) - Brunos' Nightmare with two rotating manipulators.)
 
-[//]: # (One of our favorites of this style is [Bruno's Ace](https://www.youtube.com/watch?v=49Z7-wo_XtI) - Brunos' Nightmare with two rotating manipulators.)
-
-However all these variations boil down to three club cascades with synchronous 4-count passes manipulated with substitutions, intercepts and carries, as [Warrens article on Scrambled Passing Patterns](http://ezine.juggle.org/2014/05/26/scrambled-passing-patterns-and-takeout-notations-part-1/) explains, some 2-, 3- and 5-counts being the exception.
+However, all these variations boil down to three club cascades with synchronous 4-count passes manipulated with substitutions, intercepts and carries, as [Warrens article on Scrambled Passing Patterns](http://ezine.juggle.org/2014/05/26/scrambled-passing-patterns-and-takeout-notations-part-1/) explains, some 2-, 3- and 5-counts being the exception.
 
 Another line of developing new interactions between jugglers is based on [Christophe Prechac's article on Symmetric Passing Patterns](https://www.passingdb.com/articles.php?id=13). He essentially extended the generative power of [siteswaps](https://en.wikipedia.org/wiki/Siteswap) to the passing world. This technique has been extensively investigated by the [Gandinis](http://www.gandinijuggling.com), leading to Sean's well known [Prechac explanation](http://www.owenreynolds.net/notation/Symmetric_patterns_C.pdf) and ultimately to the well known [Social Siteswaps DVD](https://www.youtube.com/watch?v=W_G74eLnK1U). A practical tool to generate these patterns is [PrechacThis](http://prechacthis.org). A denser compilation of takeout-inspired Prechac Siteswap patterns is the [Under Prechac routine](http://underprechac.de).
 
@@ -115,7 +113,7 @@ When we overlay the two patterns, we end up with:
 * _M_: 0 1 2 3 1.5p
 * _B_: 1 2 3 4 2.5p
 
-The passers have to agree on who passes straight an who crosses the 2.5p. For the 1.5p, the manipulator can avoid the flat passes to _A_ from _B_ best if she smashes the 1.5p straight, while the passer doing the overlay smashes the 1.5p _cross_. Note that in contrast to conventional takeouts the passer, too, has a smash-in.
+The passers have to agree on who passes the 2.5p straight and who passes it cross. For the 1.5p, the manipulator can avoid the flat passes to _A_ from _B_ best if she smashes the 1.5p straight, while the passer doing the overlay smashes the 1.5p _cross_. Note that in contrast to conventional takeouts the passer, too, has a smash-in.
 
 ![1 2 3 1.5p 2.5p]({% include img param="1231.5p2.5p.png"%})
 {:cimg}
