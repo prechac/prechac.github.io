@@ -78,19 +78,13 @@ _n<sub>total_ = _n<sub>passing_ + _n<sub>solo_ - 1
 In theory, this always works. In practice, there are two things that one should bear in mind to avoid an unnecessarily hard pattern: a) Don't catch passes under 4s as this will often lead to timing issues; b) if you have a 1p or 1.5p make sure you can resolve the resulting wrong-end catch, by enforcing a 1 or 2 self on that 1.5p-club immediately before or after the 1.5p. You will find this tweak in the following example 
 
 ## Fully Fledged Example: Mission Impossible
-- _What where we aiming for?/Requirements:_ 
-    - _not too demanding for participants (throws, catches, number of clubs, "familiar" elements)_
-    - _left right handed, i.e. odd period_
-    - _possibility to correct a wrong handed 1.5p, e.g. club does 1 1.5p_
-- _First approach: 1 2 3 4 2.5p and 0 1 2 1.5p overlayed to: 1 2 3 1.5p 2.5p_
+Now that we have established the general approach, consider a pattern that incorporates more of the elements that we aimed for in the first place:
 
-Now that we established the general approach, consider a pattern that incorporates more of the elements that aimed for in the first place:
-
-* It should left-right-handed, hence period 5.
+* It should be left-right-handed, hence period 5.
 * There should be a 1 1.5p, i.e. a "smash-in" preceded by a grip-correcting 1
 * Not too difficult for the passers, i.e. 5 clubs, just one low pass.
 
-This is what [PrechacThis offers us](http://prechacthis.org/index.php?persons=2&objects=5&lengths=5&max=4&passesmin=1&passesmax=1&jugglerdoes=&exclude=&clubdoes=1+4+or+2+4&react=&results=42).
+This is what [PrechacThis offered us](http://prechacthis.org/index.php?persons=2&objects=5&lengths=5&max=4&passesmin=1&passesmax=1&jugglerdoes=&exclude=&clubdoes=1+4+or+2+4&react=&results=42).
 
 Our first attempt is [4 2.5p 1 2 3]("http://prechacthis.org/info.php?pattern=[p(1,0,1),p(2,0,2),p(3,0,3),p(4,0,4),p(2.5,1,5)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D5%26amp%3Blengths%3D5%26amp%3Bmax%3D4%26amp%3Bpassesmin%3D1%26amp%3Bpassesmax%3D1%26amp%3Bjugglerdoes%3D%26amp%3Bexclude%3D%26amp%3Bclubdoes%3D1%2B4%2Bor%2B2%2B4"). As always in odd-period patterns, one passer goes straight and one goes cross on the 2.5p, which here is a floaty flat (aka "zap" or "joe pass").
 
@@ -102,7 +96,7 @@ Our first attempt is [4 2.5p 1 2 3]("http://prechacthis.org/info.php?pattern=[p(
 </video>)                                       
 
 
-The next step is to construct a manipulation pattern. [It must be period 5 and have a 1.5p in it](http://prechacthis.org/index.php?persons=2&objects=3&lengths=5&max=3&passesmin=1&passesmax=1&jugglerdoes=1.5p). In that list, there is [0 1 2 3 1.5p]("http://prechacthis.org/info.php?pattern=[p(0,0,0),p(1,0,1),p(2,0,2),p(3,0,3),p(1.5,1,4)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D3%26amp%3Blengths%3D5%26amp%3Bmax%3D3%26amp%3Bpassesmin%3D1%26amp%3Bpassesmax%3D1%26amp%3Bjugglerdoes%3D1.5p"). It looks like this, again, with one passer going straight, one cross:
+The next step is to construct a manipulation pattern. [It must be period 5 and have a 1.5p in it](http://prechacthis.org/index.php?persons=2&objects=3&lengths=5&max=3&passesmin=1&passesmax=1&jugglerdoes=1.5p). In that list, there is [0 1 2 3 1.5p]("http://prechacthis.org/info.php?pattern=[p(0,0,0),p(1,0,1),p(2,0,2),p(3,0,3),p(1.5,1,4)]&persons=2&swap=[]&back=persons%3D2%26amp%3Bobjects%3D3%26amp%3Blengths%3D5%26amp%3Bmax%3D3%26amp%3Bpassesmin%3D1%26amp%3Bpassesmax%3D1%26amp%3Bjugglerdoes%3D1.5p"). It looks like this, again, with one passer doing straight and the other cross passes:
 
 ![0 1 2 3 1.5p]({% include img param="01231.5p.png"%})
 {:cimg}
@@ -117,7 +111,7 @@ When we overlay the two patterns, we end up with:
 * _M_: 0 1 2 3 1.5p
 * _B_: 1 2 3 4 2.5p
 
-The passers have to agree on who goes straight an who crosses the 2.5p. For the 1.5p, the manipulator can dodge the flat passes best if she smashes the 1.5p straight, while the passer doing the overlay smashes the 1.5p _cross_. Note that in contrast to conventional takeouts the passer, too, has a smash-in.
+The passers have to agree on who passes straight an who crosses the 2.5p. For the 1.5p, the manipulator can avoid the flat passes to _A_ from _B_ best if she smashes the 1.5p straight, while the passer doing the overlay smashes the 1.5p _cross_. Note that in contrast to conventional takeouts the passer, too, has a smash-in.
 
 ![1 2 3 1.5p 2.5p]({% include img param="1231.5p2.5p.png"%})
 {:cimg}
@@ -126,20 +120,18 @@ We call this combination Mission Impossible, partly because it was surprisingly 
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/70927998&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-Once you have the pattern solid you can move on the Impossible Round about. Matter of a second article. The most important and difficult aspect here is be clear about what's cross and what's straight. There are some intricacies about starting, permutations and a peculiar role swapping irregularity - but we hope to cover these in a follow up post.
-
-
+Once you have the pattern solid you can move on to the Impossible Roundabout, matter of a second article. As an outlook we can already outline the most important and difficult aspect, which is to be clear about what is cross and what is straight. There are some intricacies about starting, permutations and a peculiar role swapping irregularity - but we will cover these in a follow up post.
 ## Observations, Discussion
 - _Point out that it is, at first, surprisingly hard to juggle the overlay, even though on masters both partial patterns_
 - Yes, the passer cannot ignore the manipulator, but that is true for most takeouts ("pelf")
 - _Once you by pass the your thinking machinery, its actually not that hard, you become part of a clock work, which is what the whole takeout business is about_
 - _Two step approach: (1) creating overlay prechacs, (2) dealing with runaround pecularities_
 
-What we find most remarkable about this set of patterns is how hard it is to get ones head around the overlay job (passer _A_). Even though in both examples all the bilateral passing part are fairly easy, it takes quite some time manage both patterns at once. Naturally, this applies especially to odd period patterns, where you have to memorize once for the first half and another time when you switch hands.
+What we find most remarkable about this set of patterns is how hard it is to get ones head around the overlay role (passer _A_). Even though in both examples all the bilateral passing parts are fairly easy, it takes quite some time to manage both patterns at once. Naturally, this applies especially to odd period patterns, where you have to memorize once for the first half and another time when you switch hands.
 
-However, and this is true for many takeouts and (mini) Prechac patterns - once you master the timing around the difficult throws like 4s __and__ you don't have to think actively any more, you can get the pattern solid relatively quickly. Then, you enter the "clock work" state of mind. This mode of juggling where every one is a cog, making the pattern tick, accounts for a significant amount of the attraction of takeouts.
+However, and this is true for many takeouts and (mini) Prechac patterns - once you master the timing around the difficult throws like the 4s __and__ you don't have to think actively any more, you can get the pattern solid relatively quickly. And doing the pattern solidly then suddenly feels like being part of a clock work on the one hand and watching it in admiration at the same time on the other which is probably what accounts for a significant amount of the attraction of takeout patterns.
 
-The second observation worth noting is that the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be transparent to the passers. In our view this is not problematic, since in reality the passers are always aware of the manipulation - an intercepted self has even be called "pelf" to indicate that it feels actually like a **p**ass. In contrast, our approach explicitly spells out the interaction between manipulator and passer, rather than assuming that is transparent to latter.
+The second observation worth noting is that the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be transparent to the passers. In our view this is not problematic, since in reality the passers are always aware of the manipulation - an intercepted self has even be called "pelf" to indicate that it feels actually like a **p**ass. In contrast, our approach explicitly spells out the interaction between manipulator and passer, rather than assuming that it is transparent to the latter.
 
 ## Future Work
 - _Describe the run around part of Mission Impossible in more detail (transition, starts, permutations)_
@@ -147,6 +139,6 @@ The second observation worth noting is that the passers are aware of the manipul
 - _mamupulate why not, not why etc.
 - _See how Aidan's and Ed's notation can help to find a theory for the runaround part_
 
-There are various intended activities to cover more of this patter set. First of all we need a more solid description of the run around version of Mission Impossible. To do that, a closer comparison of these patterns with Aidan's and Ed's framework should help, as it might be possible to describe the run around aspect elegantly with that notation. Taking that idea further it would be nice to have a general theory to turn our set of patterns into run arounds, which could possibly be as easy as confirming that Ed's notation can be applied in general.
+There are various intended activities, in order to cover more of this set of patterns. First of all we need a more solid description of the run around version of Mission Impossible. To do that, a closer comparison of these patterns with Aidan's and Ed's framework should help. We might be able to describe the run around aspect elegantly with that notation. Taking that idea further, it would be nice to have a general theory to turn our set of patterns into runarounds, which could possibly be as easy as confirming that Ed's notation can be applied in general.
 
-The more practical way ahead is obviously to generate more interesting patterns, especially with slightly more clubs. Examples of that could be a manipulated "Why Not"/"Not Why"/"Why the hack" etc.
+The more practical way ahead is obviously to generate more interesting patterns, especially with slightly more clubs to eliminate situations where we could actually stop the pattern with two clubs for each person. Examples of that could be a manipulated "Why Not"/"Not Why"/"Why the hack" etc.
