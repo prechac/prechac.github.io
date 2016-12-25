@@ -11,11 +11,11 @@ date:   2016-12-13 22:12:37 +0100
             
 ## Abstract
 
-Takeout or stealing patterns have been around for a long time already and are still very popular. On the other hand, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging Prechac created patterns and make both passers and manipulators do passing actions, that combine the fun of takeout- and prechac-patterns.
+_Takeouts_ or stealing patterns have been around for a long time already and are still very popular. Still, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging _Prechac_ created patterns and make both passers and manipulators do passing actions, that combine the fun of takeout- and prechac-patterns.
 
 ## Introduction
 
-In juggling the term "takeouts" typically refers to one or more jugglers doing a pattern while an extra juggler (often referred to as manipulator) "stealing" a prop out of the pattern and replacing it with another. This style has been known at least as far back as 1995 (see [Charlie Dancey's Compendium of Club Juggling](https://www.amazon.com/Charlie-Danceys-Compendium-Club-Juggling/dp/1898591148) and [Walter N. Long's Wally Walk](http://juggling.tv/7068)). These patterns were increasingly popular and were soon also performed on stage ([Take That Out performance starting in 2000](https://vimeo.com/161766794) and its sequel [Get The Shoe starting in 2002](https://www.youtube.com/watch?v=Yemkg_z7MAE)). Takeout enthusiasts have generated an enormous variety of complicated and beautiful patterns, many of them collected in [Aidan Burns' famous 'How to steal from your friends'](http://www.geocities.ws/aidanjburns/passing.html). An very systematic example of this style is [Bruno's Ace](https://www.youtube.com/watch?v=49Z7-wo_XtI&t=60s) - Bruno's Nightmare with two rotating manipulators.)
+In juggling the term "takeouts" typically refers to one or more jugglers doing a pattern while an extra juggler (often referred to as manipulator) "stealing" a prop out of the pattern and replacing it with another. This style has been known at least as far back as 1995 (see [Charlie Dancey's Compendium of Club Juggling](https://www.amazon.com/Charlie-Danceys-Compendium-Club-Juggling/dp/1898591148) and [Walter N. Long's Wally Walk](http://juggling.tv/7068)). These patterns were increasingly popular and were soon also performed on stage ([Take That Out performance starting in 2000](https://vimeo.com/161766794) and its sequel [Get The Shoe starting in 2002](https://www.youtube.com/watch?v=Yemkg_z7MAE)). Takeout enthusiasts have generated an enormous variety of complicated and beautiful patterns, many of them collected in [Aidan Burns' famous 'How to steal from your friends'](http://www.geocities.ws/aidanjburns/passing.html). An very systematic example of this style is [Bruno's Ace](https://www.youtube.com/watch?v=49Z7-wo_XtI&t=60s) -- Bruno's Nightmare with two rotating manipulators.)
 
 However, all these variations boil down to three club cascades with synchronous 4-count passes manipulated with substitutions, intercepts and carries, as [Warren's article on Scrambled Passing Patterns](http://ezine.juggle.org/2014/05/26/scrambled-passing-patterns-and-takeout-notations-part-1/) explains, some 2-, 3- and 5-counts being the exception.
 
@@ -27,7 +27,7 @@ Our idea was to join these two lines of development: the running manipulators an
 
 The basic idea we explored is: Choose a Prechac passing pattern and _overlay_ it with a custom made manipulation siteswap (another Prechac pattern).
 
-In the next section we introduce such a new pattern as an example to give a quick start to the broad idea. The section is followed by a deeper and more general explanation of the approach. By exploring a further example, with more of the intended features, we try to bring across the advantages that we found in this new technique.
+In the next section we introduce such a new pattern as an example to give a quick start to the broad idea. This is followed by a deeper and more general explanation of the approach. By exploring a further example, with more of the intended features, we elaborate on advantages that we found in this new technique.
 
 ## Motivating Example: Delightful
 
@@ -130,7 +130,7 @@ We call this combination Mission Impossible, partly because it was surprisingly 
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/70927998&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-Once you have the pattern solid you can move on to the Impossible Roundabout, a matter for a second article. As a preview we can already outline the most important and difficult aspect, which is to be clear about what is cross and what is straight. There are some intricacies about starting, permutations and a peculiar role swapping irregularity - but we will cover these in a follow up post.
+Once you have this pattern solid you can move on to the Impossible Roundabout, a matter for a second article. As a preview we can already outline the most important and difficult aspect, which is to be clear about what is cross and what is straight. There are some intricacies about starting, permutations and a peculiar role swapping irregularity - but we will cover these in a follow up post.
 
 ## Observations, Discussion
 
@@ -138,7 +138,7 @@ What we find most remarkable about this set of patterns is how hard it is to get
 
 However, and this is true for many takeouts and (mini) Prechac patterns - once you master the timing around the difficult throws like the 4s __and__ you don't have to think actively any more, you can get the pattern solid relatively quickly. And doing the pattern solidly then suddenly feels like being part of a clock work on the one hand and watching it with a detached kind of admiration at the same time on the other hand. This mix probably accounts for a significant amount of the attraction of juggling takeout patterns.
 
-The second observation worth noting is that the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be transparent to the passers. 
+The second observation worth noting is that the passers are aware of the manipulation, much in contrast to conventional takeouts where the manipulation is supposed to be transparent to the passers, in that the passers do not notice it. 
 
 In our view this is not problematic, since in reality the passers are always aware of the manipulation - an intercepted self is sometimes even called a 'pelf' to indicate that it is thrown gently (like a light **p**ass) towards the manipulator. In contrast, our approach explicitly spells out the interaction between manipulator and passer, rather than assuming that it is transparent to the latter.
 
@@ -146,7 +146,7 @@ In our view this is not problematic, since in reality the passers are always awa
 
 We have various future plans to cover more of this family of patterns.  
 
-First of all we need a more solid description of the run around version of Mission Impossible. To do that, a closer comparison of these patterns with Aidan's and Ed's framework should help. We might be able to describe the run around aspect elegantly with that notation. Taking that idea further, it would be nice to have a general theory to turn our set of patterns into runarounds, which could possibly be as easy as confirming that Ed's notation can be applied in general.
+First of all we need a more solid description of the run around version of Mission Impossible. To do that, a closer comparison of these patterns with Aidan's and Ed's framework should help. We might be able to describe the run around aspect elegantly with that notation. Taking this idea further, it would be nice to have a general theory to turn our set of patterns into runarounds, which could possibly be as easy as confirming that Ed's notation can be applied in general.
 
 The more practical way ahead is obviously to generate more interesting patterns, especially with slightly more clubs to eliminate situations where we could actually stop the pattern with two clubs for each person. Examples of that could be a manipulated versions of "Why Not", "Not Why" or "Why the heck".
 
