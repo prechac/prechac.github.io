@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Overlay Takeouts"
-date:   2016-12-13 22:12:37 +0100
+date:   2016-12-25 22:12:37 +0100
 ---
 {:cimg: style="text-align: center;"}
 
 <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 By [Florian Marienfeld](https://github.com/flowma) ([@JugglingFlo](https://twitter.com/JugglingFlo)),
 Jochen Hänsel,
@@ -15,7 +15,7 @@ Tine Oymann.
             
             
             
-**_Takeouts_ or stealing patterns have been around for a long time already and are still very popular. Still, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging _Prechac_ created patterns and make both passers and manipulators do passing actions, that combine the fun of takeout- and prechac-patterns.**
+**_Takeouts_ or stealing patterns have been around for a long time already and are still very popular. Still, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging _Prechac_ created patterns and make both passers and manipulators do passing actions, that combine the fun of takeout- and Prechac-patterns.**
 
 ## Introduction
 
