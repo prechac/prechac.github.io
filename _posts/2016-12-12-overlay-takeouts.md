@@ -8,10 +8,14 @@ date:   2016-12-13 22:12:37 +0100
 <script type="text/javascript"
             src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+By [Florian Marienfeld](https://github.com/flowma) ([@JugglingFlo](https://twitter.com/JugglingFlo)),
+Jochen Hänsel,
+[Jochen Pfeiffer](https://github.com/jjochen) ([@JochenPfeiffer](https://twitter.com/JochenPfeiffer)), 
+Tine Oymann.
             
-## Abstract
-
-_Takeouts_ or stealing patterns have been around for a long time already and are still very popular. Still, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging _Prechac_ created patterns and make both passers and manipulators do passing actions, that combine the fun of takeout- and prechac-patterns.
+            
+            
+**_Takeouts_ or stealing patterns have been around for a long time already and are still very popular. Still, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging _Prechac_ created patterns and make both passers and manipulators do passing actions, that combine the fun of takeout- and prechac-patterns.**
 
 ## Introduction
 
@@ -100,7 +104,7 @@ Our first attempt is [4 2.5p 1 2 3]("http://prechacthis.org/info.php?pattern=[p(
 ![4 2.5p 1 2 3]({% include img param="42.5p123.png"%})
 {:cimg}
 
-TODO [//]: # (<video width="640" height="360" controls preload="metadata" poster="42.5p123.png">
+TODO [//]: # (<video width="640" height="360" controls preload="metadata">
   <source src="missionImpossible.mp4#t=40s" type="video/mp4" />
 </video>)                                       
 
