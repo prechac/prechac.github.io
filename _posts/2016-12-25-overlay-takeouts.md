@@ -10,9 +10,9 @@ date:   2016-12-25 22:12:37 +0100
 </script>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
 
-By [Florian Marienfeld](https://github.com/flowma) ([<i class="fa fa-twitter"></i>](https://twitter.com/JugglingFlo)),
+By [Florian Marienfeld](https://github.com/flowma) ([<i class="fa fa-github"></i>](https://github.com/flowma), [<i class="fa fa-twitter"></i>](https://twitter.com/JugglingFlo)),
 Jochen Hänsel,
-[Jochen Pfeiffer](https://github.com/jjochen) ([<i class="fa fa-twitter"></i>](https://twitter.com/JochenPfeiffer)) and 
+[Jochen Pfeiffer](https://github.com/jjochen) ([<i class="fa fa-github"></i>](https://github.com/jjochen), [<i class="fa fa-twitter"></i>](https://twitter.com/JochenPfeiffer)) and 
 Tine Oymann. 
             
          
