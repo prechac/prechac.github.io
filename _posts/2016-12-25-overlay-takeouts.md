@@ -8,14 +8,16 @@ date:   2016-12-25 22:12:37 +0100
 <script type="text/javascript"
             src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-By [Florian Marienfeld](https://github.com/flowma) ([@JugglingFlo](https://twitter.com/JugglingFlo)),
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+By [Florian Marienfeld](https://github.com/flowma) ([<i class="fa fa-twitter"></i>](https://twitter.com/JugglingFlo)),
 Jochen Hänsel,
-[Jochen Pfeiffer](https://github.com/jjochen) ([@JochenPfeiffer](https://twitter.com/JochenPfeiffer)), 
-Tine Oymann.
+[Jochen Pfeiffer](https://github.com/jjochen) ([<i class="fa fa-twitter"></i>](https://twitter.com/JochenPfeiffer)) and 
+Tine Oymann. 
             
+         
             
-            
-**_Takeouts_ or stealing patterns have been around for a long time already and are still very popular. Still, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging _Prechac_ created patterns and make both passers and manipulators do passing actions, that combine the fun of takeout- and Prechac-patterns.**
+**_Takeouts_ or stealing patterns have been around for a long time already and are still very popular. Yet, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging _Prechac_ based patterns and make both passers and manipulators do passing actions that combine the fun of takeout- and Prechac-patterns.**
 
 ## Introduction
 
@@ -153,4 +155,3 @@ We have various future plans to cover more of this family of patterns.
 First of all we need a more solid description of the run around version of Mission Impossible. To do that, a closer comparison of these patterns with Aidan's and Ed's framework should help. We might be able to describe the run around aspect elegantly with that notation. Taking this idea further, it would be nice to have a general theory to turn our set of patterns into runarounds, which could possibly be as easy as confirming that Ed's notation can be applied in general.
 
 The more practical way ahead is obviously to generate more interesting patterns, especially with slightly more clubs to eliminate situations where we could actually stop the pattern with two clubs for each person. Examples of that could be a manipulated versions of "Why Not", "Not Why" or "Why the heck".
-
