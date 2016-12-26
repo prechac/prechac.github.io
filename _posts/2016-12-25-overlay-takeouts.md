@@ -66,11 +66,12 @@ Note that both _B_ and _M_ are staggered in reference to _A_, i.e. they are thro
 
 A good way to get the pattern started is to let _A_ have two clubs in the right hand and start with the right hand into 3p 3 1 1p, zipping the 1 into a wrong end catch. _B_ and _M_ can react intuitively.
 
-TODO Videolink static delightful
+<video width="640" height="360" controls preload="auto">
+  <source src="http://juggling.tv/download/encoded/16241/delightful-passing-overlay-takeout.mp4" type="video/mp4" />
+</video>
 
 The runaround part (swapping roles) is almost as easily achieved as in the classic roundabout. Passer _A_ gives her last club to manipulator _M_ and walks over with one club to the other passer _B_, leaving _M_ as the new passer and becoming the new manipulator. Passer _B_ has to do a short pattern change, i.e. 3p 3 1 3 _3p_ 3 _3p_ 3, where the two-count style clubs are thrown to first the former passing partner _A_ and then to the new passing partner _M_.
 
-TODO Videolink runaround delightful
 
 
 ## The General Principle
