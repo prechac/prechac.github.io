@@ -15,9 +15,12 @@ Jochen Hänsel,
 [Jochen Pfeiffer](https://github.com/jjochen) ([<i class="fa fa-github"></i>](https://github.com/jjochen), [<i class="fa fa-twitter"></i>](https://twitter.com/JochenPfeiffer)) and 
 Tine Oymann. 
             
-         
-            
 **_Takeouts_ or stealing patterns have been around for a long time already and are still very popular. Yet, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging _Prechac_ based patterns and make both passers and manipulators do passing actions that combine the fun of takeout- and Prechac-patterns.**
+
+<video width="640" height="360" controls preload="auto">
+  <source src="http://juggling.tv/download/encoded/16242/-mission-impossible-passing-overlay-takeout.mp4" type="video/mp4" />
+</video>                                 
+
 
 ## Introduction
 
@@ -107,20 +110,12 @@ Our first attempt is [4 2.5p 1 2 3]("http://prechacthis.org/info.php?pattern=[p(
 ![4 2.5p 1 2 3]({% include img param="42.5p123.png"%})
 {:cimg}
 
-TODO [//]: # (<video width="640" height="360" controls preload="metadata">
-  <source src="missionImpossible.mp4#t=40s" type="video/mp4" />
-</video>)                                       
-
 The next step is to construct a manipulation pattern. [We start from a solo pattern of period 5 with a 4 in it](http://prechacthis.org/index.php?persons=1&objects=2&lengths=5&max=4&passesmin=0&passesmax=_&jugglerdoes=4&exclude=&clubdoes=&react=&results=).
 
 Number one on that list is [0 1 2 3 4]("http://prechacthis.org/info.php?pattern=[p(4,0,4),p(0,0,0),p(1,0,1),p(2,0,2),p(3,0,3)]&persons=1&swap=[]&back=persons%3D1%26amp%3Bobjects%3D2%26amp%3Blengths%3D5%26amp%3Bmax%3D4%26amp%3Bpassesmin%3D0%26amp%3Bpassesmax%3D_%26amp%3Bjugglerdoes%3D4"). If we transform the 4 into a pass, we get 0 1 2 3 1.5p. It looks like this, again, with one passer doing straight and the other cross passes:
 
 ![0 1 2 3 1.5p]({% include img param="01231.5p.png"%})
 {:cimg}
-
-TODO [//]: # (<video width="640" height="360" controls preload="metadata" poster="">
-  <source src="missionImpossible.mp4#t=26s" type="video/mp4" />
-</video>)                                       
 
 When we overlay the two patterns, we end up with:
 
