@@ -19,8 +19,8 @@ Tine Oymann.
 
 <video width="640" height="360" controls preload="auto">
   <source src="http://juggling.tv/download/encoded/16242/-mission-impossible-passing-overlay-takeout.mp4" type="video/mp4" />
-</video>                                 
-
+</video>
+Discuss at [juggling.tv](http://juggling.tv/16242), [<i class="fa fa-facebook"></i>acebook](https://www.facebook.com/jochn.hensel/videos/vb.1549946346/10211778838456990).
 
 ## Introduction
 
@@ -72,6 +72,8 @@ A good way to get the pattern started is to let _A_ have two clubs in the right 
 <video width="640" height="360" controls preload="auto">
   <source src="http://juggling.tv/download/encoded/16241/delightful-passing-overlay-takeout.mp4" type="video/mp4" />
 </video>
+Discuss at [juggling.tv](http://juggling.tv/16241).
+
 
 The runaround part (swapping roles) is almost as easily achieved as in the classic roundabout. Passer _A_ gives her last club to manipulator _M_ and walks over with one club to the other passer _B_, leaving _M_ as the new passer and becoming the new manipulator. Passer _B_ has to do a short pattern change, i.e. 3p 3 1 3 _3p_ 3 _3p_ 3, where the two-count style clubs are thrown to first the former passing partner _A_ and then to the new passing partner _M_.
 
