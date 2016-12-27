@@ -17,7 +17,7 @@ Tine Oymann.
             
 **_Takeouts_ or stealing patterns have been around for a long time already and are still very popular. Yet, working with even newly created takeout patterns feels like doing the same fourcount based patterns over and over again. We propose to break this stagnation by leveraging _Prechac_ based patterns and make both passers and manipulators do passing actions that combine the fun of takeout- and Prechac-patterns.**
 
-<video width="640" height="360" controls preload="auto">
+<video width="640" height="360" controls preload="auto" poster="{% include img param="im-video-poster.jpg"%}">
   <source src="http://juggling.tv/download/encoded/16242/-mission-impossible-passing-overlay-takeout.mp4" type="video/mp4" />
 </video>
 Discuss at [juggling.tv](http://juggling.tv/16242), [<i class="fa fa-facebook"></i>acebook](https://www.facebook.com/jochn.hensel/videos/vb.1549946346/10211778838456990).
